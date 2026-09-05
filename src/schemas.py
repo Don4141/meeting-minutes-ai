@@ -27,6 +27,7 @@ class Decision(BaseModel):
     decision: str
     evidence: list[Evidence]
 
+
 class ActionItem(BaseModel):
     model_config = ConfigDict(extra="forbid")
     
